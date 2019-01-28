@@ -1,2 +1,2 @@
-# week1
-Pengumpulan Exercise Week 1
+# andagloss-week1
+tugas
