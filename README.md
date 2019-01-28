@@ -1,2 +1,2 @@
-# Week2
-Pengumpulan Exercise Week 2
+# Week1
+Pengumpulan Exercise Week 1
