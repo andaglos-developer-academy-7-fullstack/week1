@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Slabo 27px', serif;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    background-image: url("img/background_css.png");
+    background-color: #eaeaea;
+    background-size: auto;
+    background-repeat: repeat;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Slabo 27px', serif;
+}
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+nav.main-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    flex-grow: 1;
+}
+img#logo {
+    width: 300px;
+    max-width: 100%;
+    max-height: 58px;
+}
+nav.main-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    flex-grow: 1;
+}
+nav.main-menu a:hover{
+    color:#000;
+}
+@media screen and (max-width: 551px) {
+    header {
+        flex-direction: column;
+    }
+    nav.main-logo {
+        margin: 15px 0 30px;
+    }
+    nav.main-menu {
+        margin-bottom: 15px;
+    }
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    font-size: 18px;
+    margin: 0 15px;
+}
+section {
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+section h1 {
+    color: #607D8B;
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+    margin: 50px 0;
+}
+#article-list {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#article-list article {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-bottom: 1px solid gainsboro;
+}
+#article-list article:nth-last-child(1) {
+    border-color: #fff;
+}
+article a h3 {
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+footer {
+    display: block;
+    background-color: #000000;
+    text-align: center;
+}
+footer h5 {
+    color: #fff;
+    font-size: 15px;
+    padding: 30px 0px;
+}
